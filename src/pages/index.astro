@@ -6,13 +6,13 @@
     <title>Seizure Diary 101</title>
   </head>
   <body class="flex flex-col justify-center min-h-screen space-y-12">
-    <header class="mx-auto w-11/12 overflow-hidden border rounded-lg bg-white shadow">
-      <div class="sm:px-6 lg:px-8  items-center justify-between">
-        <div class="">
+    <header class="mx-auto w-11/12 overflow-hidden border rounded-lg bg-white shadow p-4">
+      <div class="sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2  items-center justify-between">
+        <div class="flex justify-between items-center">
           <p>logo</p>
-          <p>menu</p>
+          <p class="lg:hidden">menu</p>
         </div>
-        <div class="">
+        <div class="flex flex-col gap-8 mt-8 lg:justify-end lg:items-center lg:mt-0 lg:flex-row">
           <a href="#"><u>Link</u></a>
           <a href="#"><u>Link</u></a>
           <a href="#"><u>Link</u></a>
@@ -91,7 +91,7 @@
       </section>
     </main>
     <footer class="mx-auto w-11/12 overflow-hidden border rounded-lg bg-white shadow">
-      <div class="px-4 py-5 sm:p-6">
+      <div class="px-4 py-5 sm:p-6 flex flex-col lg:flex-row lg:justify-between lg:items-center">
         <p>logo</p>
         <p>copy and current year</p>
       </div>
