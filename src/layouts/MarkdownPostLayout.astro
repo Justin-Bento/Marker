@@ -8,7 +8,10 @@ const { frontmatter } = Astro.props;
 </head>
 <main class="w-11/12 max-w-[120ch] mx-auto my-8 lg:my-12">
   <section class="space-y-4">
-    <p class="text-sm">{frontmatter.pubDate.slice(0,10)}</p>
+    <div class="">
+      <a href="/" class="text-sm font-medium leading-none">Home / </a>
+      <a href="#" class="text-sm font-medium leading-none">{frontmatter.title}</a>
+    </div>
     <h1 class="scroll-m-20 text-3xl md:text-4xl font-medium">{frontmatter.title}</h1>
     <p class="text-lg text-gray-700">Written by {frontmatter.author}</p>
   </section>
