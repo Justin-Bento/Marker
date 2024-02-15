@@ -1,0 +1,32 @@
+---
+import Appbar from '../components/Appbar.astro';
+const { frontmatter } = Astro.props;
+---
+
+<head>
+  <title>{frontmatter.title}</title>
+</head>
+<main class="w-11/12 max-w-[120ch] mx-auto my-8 lg:my-12">
+  <section class="space-y-4">
+    <p class="text-sm">{frontmatter.pubDate.slice(0,10)}</p>
+    <h1 class="scroll-m-20 text-3xl md:text-4xl font-medium">{frontmatter.title}</h1>
+    <p class="text-lg text-gray-700">Written by {frontmatter.author}</p>
+  </section>
+  <hr class="my-4" />
+  <article class="space-y-4">
+    <slot />
+  </article>
+</main>
+
+<style is:global>
+  @font-face {
+    font-family: 'Lexend Variable';
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  body {
+    font-family: 'Lexend Variable';
+  }
+</style>
