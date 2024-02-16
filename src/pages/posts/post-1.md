@@ -10,30 +10,44 @@ image:
 tags: ["astro", "blogging", "learning in public"]
 ---
 
-
-
-A pocket notebook is a versatile tool designed to help you capture all your thoughts, enabling you to reflect on them later. Journaling often involves revisiting past or current trauma, difficult memories, and complex emotions, aiming to deepen your connection with your experiences. It's important to acknowledge that some aspects of journaling may be uncomfortable.
-
-Our goal is to highlight potential challenges and support you in building a system that identifies habits and traits.
+At its core, a journal is simply a blank notebook waiting to be filled. Journaling, then, is the intentional act of capturing life's moments, thoughts, and reflections within those pages. Those who engage in journaling dedicate time each day to pour their thoughts onto paper, using visual expressions as a tool for personal growth and self-discovery.
 
 <img src="https://images.unsplash.com/photo-1516414447565-b14be0adf13e?q=80&w=2573&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
      alt="A pocket notebook and pencile resting on a wodden table." 
      class="w-100 aspect-video rounded-lg" 
 />
 
-Here are the steps to get started:
+## Benifits of keeping a journal
 
-**Obtain a pocket notebook:** If a local stationery store is accessible, purchase a small, inexpensive pocket notebook and a pen. However, if this isn't feasible, consider using any available notebook or even digital journaling apps as alternatives.
+Because journaling is a personal form of documenting and expressing, there are many purposes for keeping a journal. Some common reasons include:
 
-**Set up your journaling space:** Find a quiet and comfortable space where you can focus on your journaling practice without distractions. This could be a cozy corner of your home or a peaceful outdoor spot.
+- Keeping records of events within your life.
+- Taking time to process your thoughts and emotions.
+- Managing projects, life goals, and your feelings.
 
-**Establish a journaling routine:** Decide on a consistent time each day to dedicate to journaling. Whether it's first thing in the morning, during your lunch break, or before bed, having a regular journaling schedule can help build momentum and make it a habit.
+Some lesser-known ways that journaling can help you include:
 
-**Choose journaling prompts:** Instead of solely focusing on building a system, consider incorporating journaling prompts to guide your reflections. These prompts can help you explore different aspects of your life, emotions, and experiences, providing valuable insights and self-awareness.
+- Developing self-awareness and knowledge.
+- Improving decision-making skills.
+- Healing trauma and emotional wounds.
+- Giving yourself a third-person view inside your life.
+- Managing anxiety and depression.
+- Enhancing well-being through self-expression and gratitude.
+- Collecting ideas and filtering out good and bad ones.
 
-**Reflect and adjust:** Regularly reflect on your journaling practice to see what's working well and what could be improved. Be open to adjusting your approach as needed to better meet your needs and goals.
+## Getting Started with Jouranling. 
 
-So for now ignore your goals of "journaling every day" and focused only on your system, that would get you to still succeed in.  
+Journaling is an easy and inexpensive self-help tool, requiring only an intention to explore life honestly.
+
+1. Define your primary purpose for journaling. What do you hope to gain from journaling?
+2. Decide whether you want to journal by hand or digitally on a computer.
+3. Gathering your journaling supplies:
+   a. You'll need a notebook.
+   b. The second item you'll need is a pen.
+   c. Dedicate time to journaling.
+
+Determine what types of journaling you want to do, and if appropriate, begin with some writing prompts, or you can simply start writing whatever comes to mind.
+
 
 > A handful of problems arise when you spend too much time thinking about your goals and not enough time designing your systems. -- James Clear
 
