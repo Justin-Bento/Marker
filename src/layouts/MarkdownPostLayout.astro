@@ -9,7 +9,7 @@ const { frontmatter } = Astro.props;
 </head>
 <main class="w-11/12 max-w-[120ch] mx-auto my-8 lg:my-12">
   <section class="space-y-4">
-    <Hamburger />
+    <Hamburger title={frontmatter.title} />
     <h1 class="scroll-m-20 text-3xl md:text-4xl font-medium">{frontmatter.title}</h1>
     <p class="text-lg text-gray-700">Written by {frontmatter.author}</p>
   </section>
