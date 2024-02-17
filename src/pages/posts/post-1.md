@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Introduction Pocket Notebooks'
+title: 'Introduction to Jouraning.'
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
+description: "Discover the benefits of journaling and learn how to start your journaling journey, whether with pen and paper or on a computer. We'll help you gather your supplies and find time to journal in your busy day."
 author: 'Astro Learner'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
