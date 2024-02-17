@@ -1,0 +1,11 @@
+---
+import Hamburger from '../components/Hamburger.astro';
+const { Headline, Supporting, Author } = Astro.props
+---
+
+<section class="space-y-4">
+  <Hamburger title={Headline} />
+  <h1 class="scroll-m-20 text-3xl md:text-4xl font-medium">{Headline}</h1>
+  <p class="text-lg text-gray-700">Written by {Author}</p>
+  <p class="text-lg text-gray-700">{Supporting}</p>
+</section>
