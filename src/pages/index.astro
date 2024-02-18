@@ -15,7 +15,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
         <Logo Size="w-48 aspect-video" />
         <h1 class="scroll-m-20 m-0 p-0 text-4xl sr-only">Marker</h1>
       </section>
-      <section class="leading-7 text-gray-700 mt-4 space-y-3">
+      <section class="leading-7 text-gray-700">
         <p>Marker is a platform that assists people with epilepsy in discovering the powers of journaling.</p>
         <p>
           As you explore these pages, you'll uncover insights, strategies, and practical tools to navigate the complexities of journaling.
@@ -25,7 +25,9 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
         <p>We are here to empower you on your journey to get you started.</p>
       </section>
       <hr />
-      {allPosts.map((post) => <Card href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />)}
+      <section class="space-y-8 my-8">
+        {allPosts.map((post) => <Card href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />)}
+      </section>
     </main>
     <Footer />
   </body>
