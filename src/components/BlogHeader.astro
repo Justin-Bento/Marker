@@ -2,8 +2,8 @@
 const { Headline, Supporting, Author } = Astro.props
 ---
 
-<section class="space-y-4">
-  <h1 class="scroll-m-20 text-3xl md:text-4xl font-medium">{Headline}</h1>
-  <p class="text-lg text-gray-700">Written by {Author}</p>
-  <p class="text-lg text-gray-700">{Supporting}</p>
+<section class="space-y-3">
+  <p class="m-0 p-0 text-sm opacity-58 tracking-wide">Author: {Author}</p>
+  <h1 class="m-0 p-0">{Headline}</h1>
+  <p class="m-0 p-0">{Supporting}</p>
 </section>
