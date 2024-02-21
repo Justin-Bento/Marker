@@ -4,6 +4,9 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
         sans: ['Lexend Variable', 'Inter', ...defaultTheme.fontFamily.sans]
