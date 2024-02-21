@@ -23,6 +23,7 @@ As there are countless reasons to keep a journal, a variety of journalistic tech
 • **Creative**: journaling, which may be interpreted into any of the other methods, allows for self expression by sing a variety (mostly) visual method. Along with writing. Creative journaling may have drawing, doodling, painting, and other forms of multimedia. 
 
 • **Gratitude**: Focuses specifically on identifying things and people in your life to be thankful for, with the purpose of building overall sense of gratitude. Benefits of gratitude journaling includes decreased stress levels increased self-awareness and a different perspective on challenges and negative emotions. 
+
 • **Medical**: Focuses on tracking medical information, discomfort, current emotions, medication, and 
 
 • **Commonplace** Notebook:  Ay collection of knowledge and reflections, drawn from various sources and kept in analog or digital format.
