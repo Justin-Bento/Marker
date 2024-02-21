@@ -8,15 +8,11 @@ const { frontmatter } = Astro.props;
   <title>{frontmatter.title}</title>
 </head>
 <body>
-  <Hamburger title={frontmatter.title} />
-  <main class="prose mx-auto max-w-[120ch]">
-    <article class="space-y-4 text-lg tracking-wide">
-    <BlogHeader
-      Headline={frontmatter.title}
-      Author={frontmatter.author}
-      Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero aperiam facere, tenetur quam perferendis pariatur sapiente fugit ullam doloremque."
-    />
-    <hr class="my-4" />
+  <main class="max-w-[120ch] mx-auto space-y-8 my-12">
+    <Hamburger title={frontmatter.title} />
+    <article class="prose mx-auto max-w-[120ch]">
+      <BlogHeader Headline={frontmatter.title} Author={frontmatter.author} Supporting={frontmatter.description} />
+      <hr class="my-4" />
       <slot />
     </article>
   </main>
