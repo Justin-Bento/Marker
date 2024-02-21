@@ -1,5 +1,5 @@
 ---
-import Appbar from '../components/Appbar.astro';
+import Hamburger from '../components/Hamburger.astro';
 import BlogHeader from '../components/BlogHeader.astro';
 const { frontmatter } = Astro.props;
 ---
@@ -7,17 +7,20 @@ const { frontmatter } = Astro.props;
 <head>
   <title>{frontmatter.title}</title>
 </head>
-<main class="w-11/12 max-w-[120ch] mx-auto my-8 lg:my-12">
-  <BlogHeader
-    Headline={frontmatter.title}
-    Author={frontmatter.author}
-    Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero aperiam facere, tenetur quam perferendis pariatur sapiente fugit ullam doloremque."
-  />
-  <hr class="my-4" />
-  <article class="space-y-4 text-lg tracking-wide">
-    <slot />
-  </article>
-</main>
+<body>
+  <Hamburger title={frontmatter.title} />
+  <main class="prose mx-auto max-w-[120ch]">
+    <article class="space-y-4 text-lg tracking-wide">
+    <BlogHeader
+      Headline={frontmatter.title}
+      Author={frontmatter.author}
+      Supporting="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero aperiam facere, tenetur quam perferendis pariatur sapiente fugit ullam doloremque."
+    />
+    <hr class="my-4" />
+      <slot />
+    </article>
+  </main>
+</body>
 
 <style is:global>
   @font-face {
