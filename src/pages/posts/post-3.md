@@ -1,4 +1,5 @@
 ---
+index: 3
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Building Your Journaling Routine.
 author: Justin Bento

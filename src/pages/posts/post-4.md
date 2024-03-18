@@ -1,4 +1,5 @@
 ---
+index: 4
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Types of Journals
 author: Astro Learner

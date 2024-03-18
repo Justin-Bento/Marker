@@ -1,4 +1,5 @@
 ---
+index: 1
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Introduction to Journaling.'
 pubDate: 2022-07-01
