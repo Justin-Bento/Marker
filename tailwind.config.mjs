@@ -10,7 +10,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Lexend Variable', 'Inter', ...defaultTheme.fontFamily.sans]
+        sans: ['Golos Text', 'Inter', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         brand: {
