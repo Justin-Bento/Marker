@@ -1,6 +1,6 @@
 ---
 index: 2
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/Layout.astro
 title: Diving into Different Types of Journals
 author: Justin Bento
 description: 'Showcasing common types of journals used throuhgout journaling  commnuity,!'

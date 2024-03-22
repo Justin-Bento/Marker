@@ -1,6 +1,6 @@
 ---
 index: 1
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/Layout.astro
 title: 'Introduction to Journaling.'
 pubDate: 2022-07-01
 description: "Discover the benefits of journaling and learn how to start your journaling journey, whether with pen and paper or on a computer. We'll help you gather your supplies and find time to journal in your busy day."

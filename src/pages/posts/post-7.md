@@ -1,6 +1,6 @@
 ---
 index: 5
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/Layout.astro
 title: "Tailoring Your Journal for Personal Growth"
 author: Astro Learner
 description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."

@@ -1,6 +1,6 @@
 ---
 index: 3
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/Layout.astro
 title: Building Your Journaling Routine.
 author: Justin Bento
 description: 'Discover the joy of journaling with these simple steps! From defining your purpose to finding a cozy writing spot, this guide makes it easy to start and enjoy the benefits of keeping a journal.!'

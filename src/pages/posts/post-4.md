@@ -1,6 +1,6 @@
 ---
 index: 4
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/Layout.astro
 title: Types of Journals
 author: Astro Learner
 description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
