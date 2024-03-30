@@ -1,6 +1,6 @@
 ---
 import Card from '../components/Card.astro';
-import Appbar from '../components/Appbar.astro';
+import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
@@ -16,7 +16,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
     <main class="">
       <section class="flex flex-col lg:flex-row divide-y lg:divide-x lg:min-h-[90svh]">
         <div class="flex-1 p-4 lg:p-8">
-          <Appbar />
+          <Navigation />
         </div>
         <div class="flex-1 lg:flex-grow p-4 lg:p-8 lg:overflow-y-scroll lg:h-[90svh] space-y-8">
           {allPosts.map((post) => <Card href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />)}
