@@ -12,13 +12,13 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marker</title>
   </head>
-  <body class="container max-w-[120ch] mx-auto divide-y-2">
+  <body class="container max-w-[120ch] mx-auto">
     <header class="mb-6 mt-12">
       <Navigation />
     </header>
     <main >
-      <section class="divide-y-2">
-        {allPosts.map((post) => <Card href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />)}
+      <section class="space-y-3">
+        {allPosts.map((post) => <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />)}
       </section>
     </main>
     <Footer />
