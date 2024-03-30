@@ -4,15 +4,8 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
 
 <nav role="navigation" aria-label="Pagination">
   <ul class="container max-w-[120ch] prose my-12 grid grid-cols-1 md:grid-cols-3">
-    <li class="flex justify-start md:justify-start items-center">Previous</li>
-    <ul class="flex justify-start md:justify-center items-center  space-x-4">
-      {allPosts.map((post) => 
-        <a href="" class="bg-gray-100 border rounded m-0 py-0.5 px-4 list-none no-underline text-sm">
-          <li class="">{post.frontmatter.index}</li>
-        </a>
-      )}
-      
-    </ul>
-    <li class="flex justify-start md:justify-end items-center">Next</li>
+    <li class="flex justify-start md:justify-start items-center">
+      <a href="/">Go Home</a>
+    </li>
   </ul>
 </nav>
