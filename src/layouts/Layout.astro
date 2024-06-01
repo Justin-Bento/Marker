@@ -14,7 +14,9 @@ const { frontmatter } = Astro.props;
     <article>
       <BlogHeader Headline={frontmatter.title} Author={frontmatter.author} Supporting={frontmatter.description} />
       <hr class="my-4" />
-      <slot />
+      <div class="prose max-w-[120ch]">
+        <slot />
+      </div>
     </article>
     <Pagination/>
   </main>
