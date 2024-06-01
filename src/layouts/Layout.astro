@@ -9,9 +9,9 @@ const { frontmatter } = Astro.props;
   <title>{frontmatter.title}</title>
 </head>
 <body class="bg-zinc-50/50">
-  <main class="">
+  <main class="prose container max-w-[120ch]">
     <Hamburger title={frontmatter.title} />
-    <article class="container max-w-[120ch] prose">
+    <article>
       <BlogHeader Headline={frontmatter.title} Author={frontmatter.author} Supporting={frontmatter.description} />
       <hr class="my-4" />
       <slot />
