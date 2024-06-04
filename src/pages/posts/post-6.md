@@ -2,7 +2,7 @@
 index: 5
 layout: ../../layouts/Layout.astro
 title: Prompts to get you Started
-author: Astro Learner
+author: Justin Bento
 description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
 image:
     url: "https://docs.astro.build/assets/rays.webp"

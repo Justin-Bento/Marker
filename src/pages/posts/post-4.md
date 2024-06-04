@@ -2,7 +2,7 @@
 index: 4
 layout: ../../layouts/Layout.astro
 title: Types of Journals
-author: Astro Learner
+author: Justin Bento
 description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
 image:
     url: "https://docs.astro.build/assets/rays.webp"
