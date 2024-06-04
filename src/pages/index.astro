@@ -14,9 +14,13 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
   </head>
   <body class="container max-w-[120ch] mx-auto bg-zinc-50/50">
     <Navigation />
-    <main >
+    <main>
       <section class="space-y-3">
-        {allPosts.map((post) => <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />)}
+        {
+          allPosts.map((post) => (
+            <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />
+          ))
+        }
       </section>
     </main>
     <Footer />
