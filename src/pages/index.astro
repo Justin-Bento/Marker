@@ -22,15 +22,13 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
         deeper understanding of your triggers, relationship with epilepsy, and empower you to manage your condition better.
       </p>
     <header />
-    <main>
-      <section class="space-y-3">
+    <main class="space-y-3 my-6">
         {
           allPosts.map((post) => (
             <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />
           ))
         }
-      </section>
-    </main>
+</main>
     <Footer />
   </body>
 </html>
