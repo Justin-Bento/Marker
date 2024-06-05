@@ -5,7 +5,8 @@ interface Props {
   href: string;
   author: string;
 }
-
+import { Image } from 'astro:assets';
+import bentoBox from '../images/bentoBox.jpg';
 const { href, title, body, author } = Astro.props;
 ---
 
@@ -26,11 +27,7 @@ const { href, title, body, author } = Astro.props;
     </p>
   </div>
   <div class="relative mt-4 flex items-center gap-x-2">
-    <img
-      src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-      alt=""
-      class="size-7 md:size-9 rounded-full bg-gray-50"
-    />
+    <Image src={bentoBox} alt="A bird sitting on a nest of eggs." class="size-7 md:size-9 rounded-full bg-gray-50" />
     <div class="text-xs md:text-sm">
       <p class="font-semibold text-gray-900">
         <a href={href}>
