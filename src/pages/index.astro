@@ -1,9 +1,12 @@
 ---
 import Card from '../components/Card.astro';
-import Logo from '../components/Logo.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+import { Icon } from 'astro-icon/components';
 const allPosts = await Astro.glob('../pages/posts/*.md');
+
+const getFullYear = new Date().getFullYear();
+
 ---
 
 <!doctype html>
@@ -15,7 +18,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
   </head>
   <body class="container max-w-[120ch] mx-auto bg-zinc-50/50">
     <header class="mb-6 mt-12 p-6">
-      <Logo Size="w-32" />
+      <Icon name="logo" class="w-28 lg:w-32 h-auto" />
       <h1 class="scroll-m-20 m-0 p-0 text-4xl sr-only">Marker</h1>
       <p class="mt-4 text-sm lg:text-base lg:leading-7 tracking-wide">
         Our platform's goal is to help people with epilepsy discover the benefits of keeping a seizure diary. As you explore these pages,
@@ -30,7 +33,14 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
         ))
       }
     </main>
-    <Footer />
+    <footer class="overflow-hidden py-12 px-6">
+      <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
+        <div class="w-24 h-auto">
+          <Icon name="logo" class="w-28 lg:w-32 h-auto" />
+        </div>
+        <p class="text-sm leading-none">&copy{`${getFullYear}`} Seizure Diary 101, Inc. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
 
@@ -38,5 +48,4 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
   // JavaScript code goes here.
 </script>
 
-<style>
-</style>
+<style></style>
