@@ -21,33 +21,32 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
         you'll uncover a personal way to track seizures, identify triggers, and refine your treatment plans. Over time, this activity will
         foster a deeper understanding of your triggers, relationship with epilepsy, and empower you to manage your condition better.
       </p>
-      <header></header>
-      <main class="space-y-3 my-6">
-        {
-          allPosts.map((post) => (
-            <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />
-          ))
-        }
-      </main>
-      <Footer />
     </header>
+    <main class="space-y-3 my-6">
+      {
+        allPosts.map((post) => (
+          <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />
+        ))
+      }
+    </main>
+    <Footer />
   </body>
-
-  <script>
-    // JavaScript code goes here.
-  </script>
-
-  <style is:global>
-    @font-face {
-      font-family: 'Golos Text';
-      src: url('/fonts/GolosText-VariableFont_wght.ttf') format('truetype');
-      font-weight: 100 900;
-      font-style: normal;
-      font-display: swap;
-    }
-    * {
-      font-family: 'Golos Text', sans-serif;
-      box-sizing: border-box;
-    }
-  </style>
 </html>
+
+<script>
+  // JavaScript code goes here.
+</script>
+
+<style is:global>
+  @font-face {
+    font-family: 'Golos Text';
+    src: url('/fonts/GolosText-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  * {
+    font-family: 'Golos Text', sans-serif;
+    box-sizing: border-box;
+  }
+</style>
