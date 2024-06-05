@@ -1,6 +1,7 @@
 ---
 import Hamburger from '../components/Hamburger.astro';
 const { frontmatter } = Astro.props;
+import '../styles/global.css';
 ---
 
 <head>
@@ -28,16 +29,5 @@ const { frontmatter } = Astro.props;
   </main>
 </body>
 
-<style is:global>
-  @font-face {
-    font-family: 'Golos Text';
-    src: url('/fonts/GolosText-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-  }
-  * {
-    font-family: 'Golos Text', sans-serif;
-    box-sizing: border-box;
-  }
+<style>
 </style>
