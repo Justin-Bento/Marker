@@ -20,7 +20,9 @@ const { frontmatter } = Astro.props;
         <slot />
       </div>
     </article>
-    <Pagination/>
+    <nav role="navigation" aria-label="Pagination" class="prose mt-6">
+      <a href="/">Go Home</a>
+    </nav>
   </main>
 </body>
 
