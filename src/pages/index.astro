@@ -28,7 +28,13 @@ const getFullYear = new Date().getFullYear();
     <main class="space-y-3 my-6">
       {
         allPosts.map((post) => (
-          <Card author={post.frontmatter.author} href={post.url} title={post.frontmatter.title} body={post.frontmatter.description} />
+          <Card 
+            author={post.frontmatter.author} 
+            href={post.url} 
+            title={post.frontmatter.title} 
+            body={post.frontmatter.description} 
+            date={post.frontmatter.pubDate.split('T00:00:00.000Z')} 
+          />
         ))
       }
     </main>

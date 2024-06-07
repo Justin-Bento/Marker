@@ -4,15 +4,16 @@ interface Props {
   body: string;
   href: string;
   author: string;
+  date: string
 }
 import { Image } from 'astro:assets';
 import bentoBox from '../images/bentoBox.jpg';
-const { href, title, body, author } = Astro.props;
+const { href, title, body, author, date } = Astro.props;
 ---
 
 <article class="flex flex-col items-start justify-between overflow-hidden rounded-md bg-white p-6 ring-1 ring-gray-300">
   <div class="flex items-center gap-x-4 text-xs">
-    <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+    <time datetime="2020-03-16" class="text-gray-500">{date || "Mar 16, 2020"}</time>
     <a href={href} class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
   </div>
   <div class="group relative">
