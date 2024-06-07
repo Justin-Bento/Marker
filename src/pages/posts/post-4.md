@@ -1,32 +1,36 @@
 ---
-index: 4
+index: 5
 layout: ../../layouts/Layout.astro
-title: Types of Journals
+title: Diving into Different Types of Journals
 author: Justin Bento
-description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
+description: 'Explore common types of journals used throughout the journaling community!'
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "Thumbnail of Astro rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+  url: 'https://docs.astro.build/assets/arc.webp'
+  alt: 'Thumbnail of Astro arcs.'
+pubDate: 2022-07-08
+tags: ['astro', 'blogging', 'learning in public', 'successes']
 ---
-As there are countless reasons to keep a journal, a variety of journalistic techniques and methods have naturally developed over time to meet specific goals. The following list outlines many popular journaling methods. Use this as a guide for the types of journaling that can provide the benefits you hope to gain in your journaling practice.
+
+With countless reasons to keep a journal, a variety of journaling techniques and methods naturally develop over time to meet specific goals. The following list outlines many popular journaling methods. Use it as a guide to discover types of journaling that provide the benefits you hope to gain in your practice.
+
+<img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+     alt="A pocket notebook and pencil resting on a wooden table." 
+     class="w-100 aspect-video rounded-lg" 
+/>
+
+- **Unstructured:** As the name suggests, this type of journaling is completely free-form, consisting of simply writing whatever is on your mind at that time (also known as free writing). This method helps clear the mind, remove excess clutter, and alleviate stress.
 
 
-- **Unstructured**: as the name suggest, this type of journaling is completely freeform, consisting of simply writing whatever is on your mind at that time (also known as free writing.) This type of journaling can be used to clean the mind of distracting clutter and stress. 
+- **Reflective:** A structured method focused on finding meaning by examining life events and asking deep questions. When you use reflective journaling, you examine emotional responses, thoughts, belief systems, and behaviors to increase self-awareness and potentially take action for improvement.
 
-- **Reflective**: A structure method focused on finding meaning by example life events and asking deep questions. When you use reflective journaling, you examine emotional responses, thoughts belief systems and behaviours to increase self-awareness and potentially take actions for improvement. 
+- **Mindfulness:** The goal of this meditative process is to bring your awareness into the present moment through the observation of thoughts, feelings, and surroundings. Benefits of mindfulness journaling include feelings of peace, reduced stress, and increased well-being.
 
-- **Mindfulness**: The goal of this meditative process is to bring your awareness into the present moment through the observation of thoughts, feeling of peace, reduced stress and increase well being.
+- **Bullet:** Bullet Journaling is a structured system developed in 2013 by Ryder Carroll to organize thinking and remain focused on important priorities. Bullet Journaling helps increase productivity, document and track life events, and build desired habits, among other benefits.
 
-- **Bullet**: Bullet journaling is a structured system developed in 2013 by Ryder Carroll to organized thinking and help individuals remain focused on important tasks. Bullet journaling helps to increase productivity.
+- **Creative:** While most journaling methods focus on writing, creative journaling, which can be incorporated into any of the other journaling methods, allows for self-expression using various visual methods. Along with writing, creative journaling may include drawing, doodling, painting, photo collages, and other forms of multimedia. Digital versions may also include audio and video.
 
-- **Creative**: journaling, which may be interpreted into any of the other methods, allows for self expression by sing a variety (mostly) visual method. Along with writing. Creative journaling may have drawing, doodling, painting, and other forms of multimedia. 
+- **Gratitude:** Focuses specifically on identifying things and people in your life to be thankful for, with the purpose of building an overall sense of gratitude. Benefits of gratitude journaling include decreased stress levels, increased self-awareness, a renewed perspective on challenges, improved emotional health, and enhanced happiness.
 
-- **Gratitude**: Focuses specifically on identifying things and people in your life to be thankful for, with the purpose of building overall sense of gratitude. Benefits of gratitude journaling includes decreased stress levels increased self-awareness and a different perspective on challenges and negative emotions. 
+- **Seizure Diary:** Focuses on tracking seizures, recording medication intake, documenting each seizure occurrence, and noting events before and after each seizure. A seizure diary helps individuals monitor and manage their seizures effectively.
 
-- **Medical**: Focuses on tracking medical information, discomfort, current emotions, medication, and 
-
-- **Commonplace** Notebook:  Ay collection of knowledge and reflections, drawn from various sources and kept in analog or digital format.
-
-In summary, these are the few types of journals to give you an idea on how to get started and you can miniplate each one to your need. The key her is to mess around and figure out what best works for you!
+In conclusion, these are just a few types of journals to help you get started. The key is to experiment and find what works best for you!
