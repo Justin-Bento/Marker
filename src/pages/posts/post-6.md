@@ -1,7 +1,7 @@
 ---
-index: 5
+index: 6
 layout: ../../layouts/Layout.astro
-title: Prompts to get you Started
+title: "Tailoring Your Journal for Personal Growth"
 author: Justin Bento
 description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
 image:

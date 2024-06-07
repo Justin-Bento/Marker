@@ -1,5 +1,5 @@
 ---
-index: 5
+index: 4
 layout: ../../layouts/Layout.astro
 title: Diving into Different Types of Journals
 author: Justin Bento
