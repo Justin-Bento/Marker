@@ -1,6 +1,8 @@
 ---
 import Hamburger from '../components/Hamburger.astro';
 const { frontmatter } = Astro.props;
+import { ViewTransitions } from 'astro:transitions';
+
 import '../styles/global.css';
 ---
 
@@ -8,6 +10,7 @@ import '../styles/global.css';
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{frontmatter.title}</title>
+  <ViewTransitions />
 </head>
 <body class="bg-zinc-50/50">
   <main class="prose mx-auto md:max-w-[90ch] p-4">
