@@ -3,7 +3,7 @@ index: 2
 layout: ../../layouts/Layout.astro
 title: Building Your Journaling Routine.
 author: Justin Bento
-description: 'Discover the joy of journaling with these simple steps! From defining your purpose to finding a cozy writing spot, this guide makes it easy to start and enjoy the benefits of keeping a journal.!'
+description: 'Discover the joy of journaling routine with these simple steps! From building a journaling habit from scratch to understanding your reasons to start. Gather insights on how someone who has never journaled before made it part of their routine.'
 image:
   url: 'https://docs.astro.build/assets/rays.webp'
   alt: 'Thumbnail of Astro rays.'

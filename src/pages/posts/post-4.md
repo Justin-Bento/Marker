@@ -3,7 +3,7 @@ index: 4
 layout: ../../layouts/Layout.astro
 title: Diving into Different Types of Journals
 author: Justin Bento
-description: 'Explore common types of journals used throughout the journaling community!'
+description: 'Inside the journaling community, we use different types of journals, such as bullet journaling, gratitude journaling, and reflection journals. Each type of journal serves a unique purpose, catering to different needs and preferences of journalers.'
 image:
   url: 'https://docs.astro.build/assets/arc.webp'
   alt: 'Thumbnail of Astro arcs.'

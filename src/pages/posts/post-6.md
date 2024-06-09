@@ -1,9 +1,9 @@
 ---
 index: 6
 layout: ../../layouts/Layout.astro
-title: "Tailoring Your Journal for Personal Growth"
+title: "Tailoring Your Journal for Seizures"
 author: Justin Bento
-description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
+description: "Explore the author's journey of managing seizures, including medication strategies and valuable lessons learned to optimize your journaling experience and avoid unnecessary time and effort "
 image:
     url: "https://docs.astro.build/assets/rays.webp"
     alt: "Thumbnail of Astro rays."

@@ -3,7 +3,7 @@ index: 5
 layout: ../../layouts/Layout.astro
 title: Prompts to get you Started
 author: Justin Bento
-description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
+description: "Discover the power of journaling prompts, learn how to use them effectively, and explore their significant role in enhancing your journaling practice. This guide will look into the who, what, when, where, and why of journaling, offering insights and practical tips."
 image:
     url: "https://docs.astro.build/assets/rays.webp"
     alt: "Thumbnail of Astro rays."

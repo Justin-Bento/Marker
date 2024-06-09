@@ -3,7 +3,7 @@ index: 1
 layout: ../../layouts/Layout.astro
 title: 'Introduction to Journaling.'
 pubDate: 2022-07-01
-description: "Discover the benefits of journaling with pen and paper. We'll help you gather your supplies, find time to journal in your busy day, and show you creative ways to personalize your journal."
+description: "In this article, you'll discover what a journal is and how the act of journaling works. We'll explore the reasons why people choose to journal, diving into the various benefits it offers. As well as understand why this website was made."
 author: 'Justin Bento'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'

@@ -3,7 +3,7 @@ index: 3
 layout: ../../layouts/Layout.astro
 title: Setting Up Your Environment
 author: Justin Bento
-description: "Discover diverse journaling methods—from structured to creative—for enhancing self-awareness and productivity in your daily life."
+description: "Understanding how your environment affects your mood and willingness to journal is crucial. Since most people lack space, it's important to recognize the significant role routines play in this process. So, your mind understands it's time to journal."
 image:
     url: "https://docs.astro.build/assets/rays.webp"
     alt: "Thumbnail of Astro rays."
