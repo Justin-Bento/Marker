@@ -5,7 +5,6 @@ import { Icon } from 'astro-icon/components';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 
 const getFullYear = new Date().getFullYear();
-
 ---
 
 <!doctype html>
@@ -20,20 +19,20 @@ const getFullYear = new Date().getFullYear();
       <Icon name="logo" class="w-28 lg:w-32 h-auto" />
       <h1 class="scroll-m-20 m-0 p-0 text-4xl sr-only">Marker</h1>
       <p class="mt-4 text-sm lg:text-base lg:leading-7 tracking-wide">
-        Our platform's goal is to help people with epilepsy discover the benefits of keeping a seizure diary. As you explore these pages,
-        you'll uncover a personal way to track seizures, identify triggers, and refine your treatment plans. Over time, this activity will
-        foster a deeper understanding of your triggers, relationship with epilepsy, and empower you to manage your condition better.
+        Our platform wants to help people with epilepsy discover the benefits of keeping a combined seizure diary and journal. As you go
+        through these pages, you'll find a personal way to track seizures, spot triggers, and improve your treatment plans. Over time, doing
+        this will help you understand your triggers better, your connection with epilepsy, and give you some control in this chaotic world.
       </p>
     </header>
     <main class="space-y-3 my-6">
       {
         allPosts.map((post) => (
-          <Card 
-            author={post.frontmatter.author} 
-            href={post.url} 
-            title={post.frontmatter.title} 
-            body={post.frontmatter.description} 
-            date={post.frontmatter.pubDate.split('T00:00:00.000Z')} 
+          <Card
+            author={post.frontmatter.author}
+            href={post.url}
+            title={post.frontmatter.title}
+            body={post.frontmatter.description}
+            date={post.frontmatter.pubDate.split('T00:00:00.000Z')}
           />
         ))
       }
